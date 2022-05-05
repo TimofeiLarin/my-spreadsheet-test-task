@@ -1,6 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
-const rootReducer = combineReducers({});
+import tableReducer from './reducers/TableSlice';
+
+const rootReducer = combineReducers({
+  tableReducer
+});
 
 export const setupStore = () => {
   return configureStore({

@@ -1,0 +1,15 @@
+.my-navbar {
+  background-color: $navbar;
+}
+.my-button {
+  margin-left: 2rem;
+  background-color: $btn !important;
+}
+.my-input {
+  width: 40rem;
+  input {
+    font-size: 1.6rem;
+    background-color: $input;
+    border-radius: 0 !important;
+  }
+}

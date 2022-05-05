@@ -1,18 +1,17 @@
 import React from 'react';
-import { Button } from '@blueprintjs/core';
+
+import Header from './components/smart/Header';
+import Table from './components/smart/Table';
 
 import './styles/app.scss';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
-      <header>
-        <Button >
-          Click
-        </Button>
-      </header>
+      <Header />
+      <Table />
     </div>
   );
-}
+};
 
 export default App;
